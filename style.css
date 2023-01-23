@@ -1,3 +1,36 @@
-body {
-
+body{
+  background-color:#A6C48A;
+  width:100%;
+  margin:0;
+}
+h1 {
+  color:#33658A;
+  text-align: center;
+  font-family:Georgia;
+}
+nav{
+  list-style-type:none;
+  type:0;
+  background-color:white;
+  padding:0.7%;
+}
+a{
+  text-decoration:none;
+  font-family:Georgia;
+  color:white;
+}
+button{
+  border:none;
+  background-color:#678D58;
+  width:100px;
+  height:30px;
+  transition:width 1s;
+}
+li{
+  display:inline;
+  padding:0.5%;
+  top:0;
+}
+button:hover{
+  width:120px;
 }
