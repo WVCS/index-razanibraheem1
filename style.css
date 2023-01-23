@@ -1,6 +1,5 @@
 body{
   background-color:#A6C48A;
-  width:100%;
   margin:0;
 }
 h1 {
@@ -10,9 +9,11 @@ h1 {
 }
 nav{
   list-style-type:none;
-  type:0;
   background-color:white;
-  padding:0.7%;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
 }
 a{
   text-decoration:none;
@@ -28,8 +29,8 @@ button{
 }
 li{
   display:inline;
-  padding:0.5%;
-  top:0;
+  padding:8px;
+  float:right;
 }
 button:hover{
   width:120px;
