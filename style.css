@@ -23,7 +23,7 @@ a{
 button{
   border:none;
   background-color:#678D58;
-  width:100px;
+  width:120px;
   height:30px;
   transition:width 1s;
 }
@@ -33,5 +33,5 @@ li{
   float:right;
 }
 button:hover{
-  width:120px;
+  width:130px;
 }
