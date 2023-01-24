@@ -1,0 +1,36 @@
+body{
+  background-color:#C2DFE3;
+}
+h1 {
+  color:#33658A;
+  text-align: center;
+  font-family:Georgia;
+}
+nav{
+  list-style-type:none;
+  background-color:white;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+}
+a{
+  text-decoration:none;
+  font-family:Georgia;
+  color:white;
+}
+button{
+  border:none;
+  background-color:#33658A;
+  width:115px;
+  height:30px;
+  transition:width 1s;
+}
+li{
+  display:inline;
+  padding:8px;
+  float:right;
+}
+button:hover{
+  width:125px;
+}
