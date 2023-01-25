@@ -44,7 +44,7 @@ table{
   margin-right:auto;
   width:45%;
 }
-th, td{
+th{
   font-family:Georgia;
   width:15%;
   padding:10px;
@@ -52,9 +52,18 @@ th, td{
 tr:hover{
   background-color:#B7C3F3;
 }
+td{
+  Georgia;
+}
 ul{
   list-style-type:circle;
 }
 img{
   width:45%;
+}
+h2{
+  color:#33658A;
+}
+li{
+  font-family:Courier New;
 }
