@@ -6,6 +6,7 @@ h1 {
   color:#33658A;
   text-align: center;
   font-family:Georgia;
+  text-shadow:2px 2px white;
 }
 nav{
   list-style-type:none;
