@@ -54,17 +54,15 @@ img{
   height:500px;
 }
 #p1{
-  width:49.5%;
+  width:50%;
   float:left;
-  margin-left:0.5%;
   height:500px;
 }
 #intro{
  background-color:lightgrey;
- width:49.5%;
+ width:50%;
  height:500px;
  float:right;
- margin-right:0.5%;
 }
 h2{
   text-align:center;
@@ -74,14 +72,12 @@ h2{
 }
 #R1{
  background-color:lightgrey;
- width:49.5%;
+ width:50%;
  height:500px;
  float:left;
- margin-left:0.5%;
 }
 #v1{
- width:49.5%;
- margin-right:0.5%;
+ width:50%;
  float:right;
   height:500px;
 }
@@ -92,39 +88,35 @@ h1{
   text-shadow:2px 2px white;
 }
 #p2{
- width:49.5%;
+ width:50%;
  height:500px;
  float:left;
 }
 #R2{
  background-color:lightgrey;
- width:49.5%;
+ width:50%;
  height:500px;
- margin-right:0.5%;
  float:right;
 }
 #R3{
  background-color:lightgrey;
- width:49.5%;
+ width:50%;
  height:500px;
  float:left;
- margin-left:0.5%;
 }
 #p3{
- width:49.5%;
+ width:50%;
  height:500px;
  float:right;
 }
 #conc{
 background-color:lightgrey;
-width:49.5%;
+width:50%;
 height:500px;
-margin-right:0.5%;
 float:right;
 }
 #p4{
- width:49.5%;
+ width:50%;
  height:500px;
  float:left;
 }
-
