@@ -35,6 +35,10 @@ body{
 }
 .dropbtn:hover, button:hover{
   background-color:#71677C;
+  width:130px;
+}
+.dropbtn, button{
+  transition: width 2s;
 }
 .dropdown-content {
   display: none;
