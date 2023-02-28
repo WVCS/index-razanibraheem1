@@ -1,1 +1,201 @@
+.navbar{
+  list-style-type:none;
+  position:fixed;
+  background-color:#FDFFF7;
+  top:0;
+  left:0;
+  width:100%;
+  height:80px;
+  border-bottom: solid #D7D6D6 2px;
+}
+.navbar a{
+  text-decoration:none;
+  font-family:Georgia;
+  color:#BA274A;
+  font-size:20px;
+}
+.inlineli{
+  float:left;
+  padding:25px;
+}
+.dropdown{
+  float:left;
+}
+.inlineli, .dropop{
+  width:155px;
+}
+.dropop{
+  width:165px;
+}
+a:hover{
+  color:black;
+}
+.dropdown-content {
+  display: none;
+  margin-left:6%;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color:white;
+  border: solid #D7D6D6 2px;
+}
+.dropdown:hover .dropbtn{
+  color:black;
+}
+img{
+  width:100%;
+}
+.logo:hover{
+ width:110px;
+}
+.logo{
+  width:105px;
+  border:none;
+  transition: width 2s;
+}
+.dropop{
+  padding:7px
+}
+.break{
+  height:150px;
+}
+.limcon{
+  background-color:#D7D6D6;
+  height:450px;
+  width:100%;
+}
+.limimg{
+  width:20%;
+  float:right;
+  margin-right:13%;
+  padding:1.4%;
+}
+body{
+  margin:0%;
+}
+.limtext{
+  width:30%;
+  float:left;
+  text-align:center;
+  margin-left:10%;
+  padding:6%;
+}
+h1{
+  font-family:Georgia;
+  color:#BA274A;
+  font-size:40px;
+  text-align:center;
+}
+.pcon{
+  display:grid;
+  grid-template:
+    "pA pA pA pA" 
+    "pB pC pD pE" 
+    "pF pF pF pF";
+  background-color:#D7D6D6;
+  height:700px;
+  width:100%;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap:40px;
+}
+
+.pA{
+  grid-column:1/5;
+  text-align:center;
+}
+.pF{
+  grid-area:3/2/3/4;
+}
+
+.pcon button{
+  width:100%;
+  height:100px;
+  border:none;
+  background-color:#BA274A;
+}
+.pcon a{
+  text-decoration:none;
+  color:white;
+  font-size:50px;
+  font-family:Georgia;
+}
+.pB, .pC, .pD, .pE{
+  height:310px;
+  overflow:hidden;
+}
+.pB{
+  margin-left:7%;
+}
+.terms{
+  background-color:#D7D6D6;
+  height:40px;
+  width:100%;
+}
+.menu{
+  display:grid;
+  height:1200px;
+  grid-row-gap:30px;
+   grid-column-gap: 4%;
+  grid-template:
+    "mA mB mC" auto
+    "mD mE mF"
+    "mG mH mI"
+    "mJ mK mL";
+  text-align:center;
+    font-size:20px;
+  padding:3px;
+  text-align:center;
+}
+.mA{
+  grid-column:1/4;
+}
+.mE{
+  grid-column:1/4;
+}
+.mF{
+  grid-column:1/2;
+}
+.mG{
+  grid-column:2/3;
+}
+.mH{
+  grid-column:3/4;
+}
+.mI{
+  grid-column:1/4;
+}
+.mB:hover,.mC:hover,.mD:hover,.mF:hover,.mG:hover,.mH:hover,.mJ:hover,.mK:hover,.mL:hover{
+  background-color:#C7D3DD;
+}
+.mA,.mB,.mC,.mD,.mE,.mF,.mG,.mH,.mI,.mJ,.mK,.mL{
+  border:solid #D7D6D6 2px;
+}
+p{
+  font-size:30px;
+  font-family:Georgia;
+  color:#BA274A;
+}
+.locations{
+  margin-left:15%;
+  float:left;
+  font-size:20px;
+  text-align:center;
+  border:solid #D7D6D6 2px;
+  width:28%;
+  height:230px;
+}
+.hours{
+  float:right;
+  margin-right:15%;
+  text-align:center;
+  font-size:20px;
+  border:solid #D7D6D6 2px;
+  width:28%;
+  height:230px;
+}
+.hours:hover, .locations:hover{
+  background-color:#C7D3DD;
+}
+
+
 
