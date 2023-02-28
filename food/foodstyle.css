@@ -49,7 +49,7 @@ img{
  width:110px;
 }
 .logo{
-  width:105px;
+  width:80px;
   border:none;
   transition: width 2s;
 }
@@ -196,6 +196,5 @@ p{
 .hours:hover, .locations:hover{
   background-color:#C7D3DD;
 }
-
 
 
