@@ -68,7 +68,6 @@ img {
 @media only screen and (max-width: 1024px){
   .container{
     flex-direction:column;
-    height:800vh;
     display:flex;
   }
   .wrapper{
