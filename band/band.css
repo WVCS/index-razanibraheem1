@@ -29,6 +29,12 @@ h1{
   font-family: math;
   font-size:60px;
 }
+h2{
+  text-align:center;
+  color:#49261D;
+  font-family: math;
+  font-size:40px;
+}
 .container{
   display:grid;
   grid-template:
@@ -64,8 +70,8 @@ width:80%;
     width:100%;
   }
   iframe{
-    width:400px;
-    height:225px;
+    width:480px;
+    height:2200px;
   } 
 }
 @media only screen and (min-width: 1024px){
@@ -167,4 +173,23 @@ button{
   to {opacity: 1}
 }
 iframe{
+}
+table, tr, th, td{
+  border:solid #49261D;
+}
+table{
+  border-collapse:collapse;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+}
+th{
+  font-family:Georgia;
+  width:15%;
+  padding:10px;
+}
+td{
+  font-family:Courier New;
+  padding:10px;
+  text-align:center;
 }
