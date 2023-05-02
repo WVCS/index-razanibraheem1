@@ -9,7 +9,7 @@
   display:grid;
    grid-template:
     "A B C D E";
-  grid-column-gap:18vw;
+  grid-column-gap:0vw;
   background-color:white;
   max-width:100vw;
 }
