@@ -1,4 +1,4 @@
-.nav{
+nav{
   list-style-type:none;
   position:fixed;
   left:0;
@@ -6,17 +6,9 @@
   width:100%;
   text-align:center;
   align-items:center;
-  display:grid;
-   grid-template:
-    "A B C D E";
-  grid-column-gap:0vw;
   background-color:white;
   max-width:100vw;
 }
-.A, .B, .C, .D, .E{
-  max-width:100%;
-}
-
 a{
   text-decoration:none;
   font-family:Georgia;
@@ -25,6 +17,9 @@ a{
 }
 .navli{
   display:inline;
+  margin-left:auto;
+  margin-right:auto;
+  padding:3%;
 }
 .logo{
   width:5vw;
@@ -97,6 +92,7 @@ h1{
   margin-right:auto;
   align-items:center;
 }
+
 h2{
   text-align:center;
   font-size:50px;
@@ -197,6 +193,9 @@ h2{
     flex-direction:column;
     display:flex;
   }
+  a{
+    font-size:13px;
+  }
   .a, .b, .c, .d, .e, .f, .g, .h, .i{
    min-width:80vw;
   }
@@ -222,9 +221,4 @@ h2{
   .container{
     display:grid;
   }
-}
-h3{
-  font-size:30px;
-  color:#050A30;
-  font-family:Georgia;
 }
