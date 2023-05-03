@@ -7,7 +7,8 @@ nav{
   text-align:center;
   align-items:center;
   background-color:white;
-  max-width:100vw;
+  height:70px;
+  padding:26px;
 }
 a{
   text-decoration:none;
