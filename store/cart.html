@@ -1,0 +1,448 @@
+<html>
+  
+<head> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/213657/water-slide-clipart-xl.png">
+    <title>Ruby's Finds</title>
+  </head>
+  <body>
+     <nav>
+      <center>
+   <div class="star"> <li class="navli">    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2048px-Gold_Star.svg.png"></li></div>
+        
+       <div id="ahhh">
+   <form  class="search" autocomplete="off" action="">
+     <div class="hh">
+       <input id="myInput" type="text" name="box" placeholder="Search to your heart's content">
+     </div>
+     </div> 
+   
+   </form>  
+        
+        
+     <li class="navli"><a  class="nava" href="../index.html">Other Websites</a></li>
+    <li class="navli"><a  class="nava" href="store.html">Home</a></li>
+    <li class="navli"><a  class="nava" href="products.html">Products</a></li>
+    <li class="navli"><a  class="nava" href="cart.html">View Cart</a></li>
+      </center>
+    </nav>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
+<style>
+  nav{
+  list-style-type:none;
+  position:fixed;
+  left:0;
+  top:0px;
+  width:100%;
+  text-align:center;
+  align-items:center;
+  background-color:white;
+  height:30px;
+  padding:26px;
+  background-color:#555E8B;
+}
+.nava{
+  text-decoration:none;
+  font-family:Georgia;
+  color:#F6E5CF;
+  font-size:20px;
+}
+.navli{
+  display:inline;
+  padding:3%;
+}
+.star{
+  width:40px;
+  float:left;
+  left:0;
+}
+img{
+  width:100%;
+  color:pink;
+}
+
+.search{
+  float:left;
+  width:20.2vw;
+  background-color:#E1BF4B;
+}
+.hh, form{
+  cursor:grab;
+}
+
+.warning{
+  background-color:#555E8B;
+  font-size:25px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  color:#F6E5CF;
+}
+
+.warningclosebutton{
+  color:#E1BF4B;
+  cursor:pointer;
+  font-size:35px;
+}
+.acceptbutton{
+  font-size:19px;
+  margin-right:3%;
+  float:right;
+  height:40px;
+  background-color:#E1BF4B;
+  border:none;
+  color:#555E8B;
+}
+.A, .B, .C, .D, .E, .F{
+ 
+}
+.A{
+  grid-column:1/2;
+  max-width: 49vw;
+  grid-row:1/4;
+  min-width:49vw;
+}
+.B{
+  grid-column:3/4;
+  max-width: 49vw;
+  grid-row:2/2;
+}
+.D{
+  grid-row:1/1;
+  grid-column:3/4;
+}
+.E{
+  grid-row:3/3;
+  grid-column:3/4;
+}
+.C{
+  grid-column:2/3;
+  grid-row:1/4;
+  max-width: 25vw;
+  min-width:25vw;
+}
+.F{
+  grid-column:1/4;
+}
+body{
+  margin:0;
+}
+h1{
+  font-size:3.7vw;
+  color:#555E8B;
+}
+.clearance{
+  background-color:#555E8B;
+  width:80%;
+  height:50px;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+.new{
+  background-color:#E1BF4B;
+  width:80%;
+  height:50px;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+.newa{
+  color:#555E8B;
+}
+@media only screen and (max-width: 900px){
+  .container{
+    flex-direction:column;
+    display:flex;
+  }
+  a{
+    font-size:13px;
+  }
+  .A, .B, .C, .D, .E, .F{
+   width:100%;
+    min-width:80vw;
+    max-width:80vw;
+  }
+  .new, .clearance{
+    height:100px;
+    width:100%;
+  }
+  a{
+    font-size:20px;
+  }
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#myInput{
+width:20vw;
+  height:35px;
+  top:0;
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 0.5px solid #ccc;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+<script>
+  
+
+function autocomplete(inp, arr) {
+
+  var currentFocus;
+
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+
+      this.parentNode.appendChild(a);
+
+      for (i = 0; i < arr.length; i++) {
+
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+
+          b = document.createElement("DIV");
+
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+
+          b.addEventListener("click", function(e) {
+
+              inp.value = this.getElementsByTagName("input")[0].value;
+
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        e.preventDefault();
+        if (currentFocus > -1) {
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    if (!x) return false;
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+var autoAnswers = ["Boots", "Belts", "Shoes", "Jackets", "Leather", "Shirts", "Jeans", "Pajamas", "Accesories", "Jewelry", "Hats"];
+
+autocomplete(document.getElementById("myInput"), autoAnswers);
+</script>
