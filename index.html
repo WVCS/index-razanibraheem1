@@ -1,22 +1,32 @@
 <html>
   <head> <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2022/02/27/04/58/dolphin-7036679_1280.png">
-    <title> Razan's Website </title>
+    <title> Razan's Very Cool Website </title>
   </head>
 
   <body>
-    <nav>
-      <li> <button> <a href="artifact.html">Personal Artifact</a> </button></li>
-      <li> <button> <a href="store/store.html">Store</a> </button></li>
-      <li> <button> <a href="place/place.html">Pl of Amusement</a> </button></li>
-        <li> <button> <a href="band/band.html">Band</a> </button></li>
-      <li> <button> <a href="circus/circus.html">Circus</a> </button></li>
-        <li> <button> <a href="event/event.html">Event</a> </button></li>
-      <li><button> <a href="food/food.html">Food</a></button> </li>
-       <li><button> <a href="convince/home.html">Convince</a></button> </li>
-      <li> <button> <a href="noun.html">Noun</a> </button></li>
- <li><button> <a href="index.html">Home</a></button> </li>
-     </nav>
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Websites
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+     <a href="artifact.html">Personal Artifact</a>
+      <a href="store/store.html">Store</a>
+     <a href="place/place.html">Pl of Amusement</a>
+     <a href="band/band.html">Band</a>
+     <a href="circus/circus.html">Circus</a>
+        <a href="event/event.html">Event</a>
+      <a href="food/food.html">Food</a>
+      <a href="convince/home.html">Convince</a>
+    <a href="noun.html">Noun</a>
+    </div>
+  </div>
+  <a href="#about">Personal Artifact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
     <br>
     <br>
     <h1> Razan's Very Cool Website </h1>
@@ -26,3 +36,16 @@
     </center>
   </body>
 </html>
+
+
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
